@@ -1,0 +1,124 @@
+body {
+  background-color: #ADD8E6;
+  fill:#0F1833; 
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align:center ;
+}
+.Title {
+  font-size: 12px;
+  color:#5169b2;
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center; 
+}
+
+ 
+.parigraph {
+  color: #003366;
+  line-height: 2;
+  border: 0px solid #ADD8E6;
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: left;
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;  font-size: ;
+}
+
+img {
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.Plink {
+  color:#191970;
+  text-decoration: none;
+}
+
+.I {
+  color: #ADD8E6;
+  line-height: 2;
+  border: 0px solid #ADD8E6;
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: left;
+  font-style: italic;
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;  font-size: ;
+}
+}
+.Slink {
+  color:#1DB896;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 5em;
+
+}
+.Plink:hover {
+  color: white;
+}
+
+.Slink:hover {
+  color: white;
+}
+ 
+
+.links {
+  background-color: #191970;
+  border-radius: 14px;
+  color: white;
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;  font-size: 10px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 10px;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 8px;
+  border-left:1px solid #ADD8E6;
+
+}
+
+
+.links:hover {
+  background-color: #4169E1 ;
+  border-radius: 14px;
+  color: white;
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;  font-size: 10px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8px;
+}

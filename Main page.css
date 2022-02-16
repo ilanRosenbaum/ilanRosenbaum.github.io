@@ -1,0 +1,80 @@
+ 
+body {
+  background-color: #ADD8E6;
+  fill:#0F1833; 
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align:center ;
+}
+img {
+  width: 12%;
+  margin-left: 0px;
+  display:block;
+  word-wrap: break-word;
+
+
+}
+
+
+
+
+.Heading {
+  font-size: 12px;
+  color:#5169b2;
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+}
+
+.parigraph {
+  color: 003366;
+  line-height: 200%;
+  border: 1px solid #ADD8E6;
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: left;
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+.links {
+  background-color: #191970;
+  border-radius: 14px;
+  color: white;
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;  font-size: 10px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8px;
+
+}
+
+.Plink {
+  color:#191970;
+  text-decoration: none;
+}
+
+.Plink:hover {
+  color:white;
+}
+
+
+
+.links:hover {
+  background-color: #4169E1 ;
+  border-radius: 14px;
+  color: white;
+  font-family: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;  font-size: 10px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8px;
+}
+
+
+
+
+
